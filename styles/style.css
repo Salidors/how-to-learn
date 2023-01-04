@@ -1,3 +1,8 @@
+p,
+h3 {
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -80,7 +85,51 @@
 
 /*========== MAIN ========*/
 
+
+
 /* ========= DESCRIPTION ======*/
+
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.two-columns {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.two-columns__breef {
+  line-height: 1.2;
+  font-weight: normal;
+  font-size: 18px;
+  width: 175px;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+
 
 /*=========== DIJITS =========*/
 
