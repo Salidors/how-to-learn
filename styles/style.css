@@ -5,7 +5,8 @@ h2,
 ul,
 li,
 span,
-img {
+img,
+a {
   margin: 0;
   padding: 0;
 }
@@ -97,8 +98,6 @@ p {
 
 /*========== MAIN ========*/
 
-
-
 /* ========= DESCRIPTION ======*/
 
 .description {
@@ -140,8 +139,6 @@ p {
   font-weight: 600;
   font-size: 24px;
 }
-
-
 
 /*=========== DIGITS =========*/
 .digits {
@@ -241,7 +238,7 @@ p {
 /* и элемента с модификатором вида ключ-значение */
 .kaufman {
   background: #1f1f1f;
-  color: white;
+  color: #f2f2f2;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -275,7 +272,6 @@ p {
   right: -210px;
 }
 
-
 /*======== FOOTER =======*/
 .footer {
   background-color: #1f1f1f;
@@ -283,7 +279,7 @@ p {
   display: flex;
   min-height: 350px;
   height: 350px;
-  color: #efefef;
+  color: #f2f2f2;
   flex-direction: column;
 }
 
@@ -305,8 +301,6 @@ p {
 
 .logo__place__footer {
   display: flex;
-  width: 228px;
-  height: 32px;
 }
 
 .footer__author {
@@ -334,14 +328,13 @@ p {
 }
 
 .footer__columns__links {
-  color: #efefef;
+  color: #f2f2f2;
   text-decoration: none;
 }
 
 .footer__columns__content__social {
   display: flex;
   flex-flow: column;
-
 }
 
 .footer__social__icon {
