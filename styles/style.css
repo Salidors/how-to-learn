@@ -35,6 +35,12 @@
   z-index: -1;
 }
 
+.header__square-pic_rotation {
+  transform: rotate(360deg);
+  transition: transform 20s linear;
+  animation-iteration-count: infinite;
+}
+
 .header__main-illustration {
   right: 0;
   bottom: 0;
@@ -48,6 +54,11 @@
   padding: 0;
   width: 228px;
   height: 32px;
+}
+
+.logo:hover {
+  transition: color 1s linear 0.5s;
+  opacity: 0.5;
 }
 
 .logo_place_header {
@@ -85,6 +96,10 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+}
+
+.link:hover {
+  opacity: 0.7;
 }
 
 /*========== MAIN ========*/
@@ -137,6 +152,28 @@
   line-height: 34px;
   font-weight: 600;
   font-size: 24px;
+}
+
+/*=========== TECHNIQUES =========*/
+
+/*=========== VIDEO =========*/
+.video {
+  margin: 100px auto 0;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.video__iframes {
+  padding-top: 50px;
+}
+
+.video__iframe {
+  min-width: 720px;
+  min-height: 405px;
 }
 
 /*=========== DIGITS =========*/
