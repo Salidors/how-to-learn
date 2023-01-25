@@ -1,0 +1,7 @@
+.cards__item {
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  display: flex;
+  max-width: 240px;
+}
